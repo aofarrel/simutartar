@@ -1,0 +1,25 @@
+{
+  "Mutartar.simutator.memory": "Int (optional, default = 8)",
+  "Mutartar.art.sdev": "Int (optional, default = 25)",
+  "Mutartar.simutator.cpu": "Int (optional, default = 4)",
+  "Mutartar.art.len": "Int (optional, default = 150)",
+  "Mutartar.simutator.ins": "String",
+  "Mutartar.art.retries": "Int (optional, default = 3)",
+  "Mutartar.art.art_seed": "Int",
+  "Mutartar.simutator.dels": "String",
+  "Mutartar.art.preempt": "Int (optional, default = 2)",
+  "Mutartar.simutator.preempt": "Int (optional, default = 2)",
+  "Mutartar.art.addldisk": "Int (optional, default = 1)",
+  "Mutartar.simutator.retries": "Int (optional, default = 3)",
+  "Mutartar.art.memory": "Int (optional, default = 8)",
+  "Mutartar.simutator.snps": "Int",
+  "Mutartar.art.mflen": "Int (optional, default = 500)",
+  "Mutartar.art.seqSys": "String (optional, default = \"HS25\")",
+  "Mutartar.art.fcov": "Int (optional, default = 50)",
+  "Mutartar.simutator.addldisk": "Int (optional, default = 1)",
+  "Mutartar.simutator.simutator_seed": "Int",
+  "Mutartar.art.cpu": "Int (optional, default = 4)",
+  "Mutartar.genome": "File",
+  "Mutartar.simutator.complex": "String"
+}
+
