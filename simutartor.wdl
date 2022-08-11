@@ -60,10 +60,10 @@ task art {
 		Int sdev = 25
 
 		# runtime attributes
-		Int addldisk = 1
-		Int cpu = 4
+		Int addldisk = 10
+		Int cpu = 16
 		Int retries = 3
-		Int memory = 8
+		Int memory = 32
 		Int preempt = 2
 	}
 	# Estimate disk size required
@@ -89,7 +89,7 @@ task art {
 	}
 }
 
-workflow Mutartar {
+workflow Simutartor {
 	input {
 		File genome
 	}
@@ -99,7 +99,7 @@ workflow Mutartar {
 			genome = genome
 	}
 
-	# for some reason this is ridiculously slow on local... why?
+	# this task is incredibly slow on local, like, one output per hour slow
 	scatter(mutated_fasta in simutator.mutated_fastas) {
 		call art {
 			input:

@@ -1,0 +1,12 @@
+{
+  "Simutartor.simutator.ins": "1000:1,1000:2,1000:3,1000:4,1000:5,1000:10,1000:20,1000:50,10000:100,20000:500,20000:1000,20000:2000,20000:5000,20000:10000 ",
+  "Simutartor.art.retries": "1",
+  "Simutartor.art.art_seed": "42",
+  "Simutartor.simutator.dels": "1000:1,1000:2,1000:3,1000:4,1000:5,1000:10,1000:20,1000:50,10000:100,20000:500,20000:1000,20000:2000,20000:5000,20000:10000",
+  "Simutartor.simutator.retries": "1",
+  "Simutartor.simutator.snps": "200",
+  "Simutartor.simutator.simutator_seed": "42",
+  "Simutartor.genome": "../H37Rv_version_3_refgenome_NC_000962.3.fasta",
+  "Simutartor.simutator.complex": "1000:10:3:0:0:0,1000:10:3:1:1:2,1000:50:10:1:1:3,1000:50:20:3:3:4"
+}
+
