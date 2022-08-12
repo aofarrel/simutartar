@@ -71,7 +71,7 @@ task art {
 	Int finalDiskSize = 2*fasta_size + addldisk
 
 	command <<<
-	art_illumina --in ~{mutated_fasta} --out reads.out --noALN --seqSys {~seqSys} \
+	art_illumina --in ~{mutated_fasta} --out reads.out --noALN --seqSys ~{seqSys} \
 	--len ~{len} --fcov ~{fcov} --mflen ~{mflen} --sdev ~{sdev} --rndSeed ~{art_seed}
 	>>>
 
